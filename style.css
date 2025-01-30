@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+:root {
+  --bg-light: #60b347;
+  --bg-dark: #222;
+  --light-grey: #333;
+  --light-white: #eee;
+  --dark-white: #ccc;
+}
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--light-white);
+
+  header {
+    height: 35vh;
+    position: relative;
+    border-bottom: 7px solid var(--light-white);
+
+    h1 {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      left: 50%;
+      top: 52%;
+      transform: translate(-50%, -50%);
+      font-size: 4rem;
+    }
+
+    .again {
+      position: absolute;
+      left: 2rem;
+      top: 2rem;
+    }
+
+    .between {
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+      font-size: 1.4rem;
+    }
+
+    .number {
+      position: absolute;
+      padding: 3rem 0;
+      width: 15rem;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      text-align: center;
+      background-color: var(--light-white);
+      color: var(--light-grey);
+      font-size: 6rem;
+    }
+  }
+
+  main {
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--light-white);
+
+    .section-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 52rem;
+
+      .guess {
+        display: block;
+        margin-bottom: 3rem;
+        padding: 2.5rem;
+        width: 25rem;
+        text-align: center;
+        background: none;
+        color: inherit;
+        font-family: inherit;
+        font-size: 5rem;
+        border: 4px solid var(--light-white);
+      }
+    }
+
+    .section-right {
+      width: 52rem;
+      font-size: 2rem;
+
+      .message {
+        margin-bottom: 8rem;
+        height: 3rem;
+      }
+
+      .label-score {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
+
+.btn {
+  padding: 2rem 3rem;
+  background-color: var(--light-white);
+  color: 2rem;
+  border: none;
+  font-size: 2rem;
+  font-family: inherit;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--dark-white);
+  }
+}
