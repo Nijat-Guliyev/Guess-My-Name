@@ -12,8 +12,10 @@ This is a brief introduction to my project. It explains what the project is abou
 
 - Feature 2: After seeing the result, continue the game by clicking the appropriate Again button..
 
-- Feature 3: Good Luck!
+## Contributing
+
+If you like this game at the end, recommend it to your relatives.
 
 ## Author
 
-Created by [Nijat Guliyev](https://github.com/Nijat-Guliyev). Feel free to check out my [GitHub profile](https://github.com/Nijat-Guliyev) for more projects!
+Created by [Nijat](https://www.linkedin.com/in/nijat-guliyev-1949a4294/). Feel free to check out my [GitHub profile](https://github.com/Nijat-Guliyev) for more projects!
