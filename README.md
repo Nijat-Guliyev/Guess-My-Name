@@ -1,6 +1,6 @@
 # Project Title
 
-Game | GMN
+Game | GMN | Dice Roll Game
 
 ## Introduction
 
